@@ -138,6 +138,10 @@ p{
     font-weight: bold;
 }
 
+.content-fourth{
+    padding: 6% 15% 6% 15%;
+}
+
 .blue-box{
     background-color: #3882f6;
     padding: 5% 10% 5% 10%;
@@ -179,7 +183,31 @@ p{
     background-color: #3882f6;
 }
 
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 10% 3% 10%;
+}
+
+.footer p{
+    font-weight: 400;
+    color: #e5e7eb;
+}
+
 @media (max-width: 800px) {
+    .nav{
+        height: 50px;
+        background-color: #1f2937;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 15% 0 15%;
+    }
+
     .box-container{
         display: flex;
         flex-direction: column;
