@@ -1,5 +1,5 @@
 *{
-    font-family: 'Hero';
+    font-family: 'Roboto';
     margin: 0;
     padding: 0;
 }
@@ -11,22 +11,73 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10% 0 10%;
+    padding: 0 15% 0 15%;
 }
 
 .logo{
     align-self: center;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 
 li, a{
+    font-family: 'Roboto';
+    font-weight:lighter;
     text-decoration: none;
     color: #ffffff;
+    font-size: large;
     display: inline-block;
     margin-left: 15px;
 }
 
 li{
     list-style: none;
+}
+
+.content-first{
+    color: #ffffff;
+    padding: 9% 15% 9% 15%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-left{
+    align-self: flex-start;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title{
+    font-family: 'Roboto';
+    font-size: 3.5em;
+}
+
+p{
+    font-size: large;
+    font-weight: lighter;
+}
+
+.btn{
+    font-size: large;
+    background-color: #3882f6;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff
+}
+
+.content-right{
+    align-self: center;
+    justify-content: center;
+}
+
+.content-img-1{
+    max-width: 600px;
+    height: auto;
 }
