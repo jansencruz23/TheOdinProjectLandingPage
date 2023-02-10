@@ -1,0 +1,32 @@
+*{
+    font-family: 'Hero';
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height: 50px;
+    background-color: #1f2937;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.logo{
+    align-self: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+li, a{
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+li{
+    list-style: none;
+}
